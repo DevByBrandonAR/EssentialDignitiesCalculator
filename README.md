@@ -1,7 +1,7 @@
 # EssentialDignitiesCalculator
 
 > ⚠️ **Development Status: Beta**  
-> This project is currently in active beta. The core structures are stable, but specific calculation logic and available features are in flux. Basically you can enter latitude and longitude, birth time and date, and timezone, and get a chart. This leverages several libraries to get this astronomical information into a usable arrangement.
+> This project is currently in active beta. The core structures are stable but many cases have not been tried. 
 
 ## What does this tool do
 > There is the concept in medieval astrology of "essential dignity" whereby you can rank the strength of different planets in a chart. This is done by looking at the sign and angle placements and seeing how they compare to standards. There are various schemes in the literature; here we use a scheme listed in Chapter 6 of _On the Heavenly Spheres: A Treatise on Traditional Astrology_ by Avelar and Ribeiro (2010). The logic in this program institutes an algorithm whereby one can rank these planets. It prints out the rankings of the seven "classical planets" (Moon, Mercury, Venus, Sun, Mars, Jupiter, Saturn) and displays a spider chart of the rankings. (See below for example input and output.)
