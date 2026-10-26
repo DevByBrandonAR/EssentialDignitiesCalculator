@@ -1,3 +1,4 @@
+[project]
 name="EssentialDignitiesCalculator"
 description = "calculate essential dignities for classical planets entered by user"
 readme = "README.md"
