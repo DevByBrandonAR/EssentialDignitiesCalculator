@@ -1,5 +1,6 @@
 description = "calculate essential dignities for classical planets entered by user"
 readme = "README.md"
+version="0.1.0b1"
 requires-python = ">=3.13"
 dependencies =[
 "matplotlib>=3.11.2", 
