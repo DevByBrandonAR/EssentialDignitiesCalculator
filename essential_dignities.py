@@ -109,7 +109,7 @@ for planet in scores.keys():
 	for angle_range in terms[planets[planet]["Sign"]].keys(): 
 		a = angle_range[0] 
 		b = angle_range[1] 
-		if planets[planet]["Degree"] >= a and planets[planet]["Degree"] <= b: 
+		if planets[planet]["Degree"] >= a and planets[planet]["Degree"] < b: 
 			if planet == terms[planets[planet]["Sign"]][angle_range]: 
 				scores[planet] += 2 
 				print("--> +2 Term") 
