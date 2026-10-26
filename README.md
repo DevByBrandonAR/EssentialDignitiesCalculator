@@ -7,7 +7,7 @@
 ## Installation
 ```bash
 git clone https://github.com/DevByBrandonAR/EssentialDignitiesCalculator.git
-cd EsssentialDignitiesCalculator
+cd EssentialDignitiesCalculator
 python3 -m venv venv
 source venv/bin/activate  # On Windows: .\venv\Scripts\activate
 python3 -m pip install .
